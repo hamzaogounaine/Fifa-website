@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fifa </title>
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d9590ea432.js" crossorigin="anonymous"></script>
+        <style>
+            [draggable=true] {
+                cursor: move;
+            }
+
+            body {
+                overflow-x: hidden;
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            .top {
+                font-size: 12px;
+            }
+
+            .top,
+            .main {
+                background-color: rgb(4, 86, 148);
+            }
+
+            .items {
+                font-size: 14px;
+                text-wrap: nowrap;
+            }
+
+            .items::-webkit-scrollbar {
+                display: none;
+            }
+
+            img:hover {
+                scale: 105%;
+                transition: all ease-in-out 0.4s;
+            }
+
+            .tournaments {
+                background-color: rgb(4, 86, 148);
+            }
+            .card{
+                flex: 0 0 auto;
+            }
+            ::-webkit-scrollbar {
+                width: 7px;
+                height: 7px;
+            }
+
+            ::-webkit-scrollbar-button {
+                width: 35px;
+                height: 35px;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: #045594;
+                border: 0px solid #ffffff;
+                border-radius: 100px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #467191;
+            }
+
+            ::-webkit-scrollbar-thumb:active {
+                background: #004275;
+                margin-top: 10x;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: #ffffff;
+                border: 88px solid #ffffff;
+                border-radius: 100px;
+            }
+
+            ::-webkit-scrollbar-track:hover {
+                background: #ffffff;
+            }
+
+            ::-webkit-scrollbar-track:active {
+                background: #ffffff;
+            }
+
+            ::-webkit-scrollbar-corner {
+                background: transparent;
+            }
+        
+        </style>
+    </head>
+
+    <body class="">
+        <div class="container">
+            <div class="navbar max-sm:justify-center">
+                <div class="px-3 py-2 top border-b border-white text-white">
+                    <ul class="list-none uppercase flex gap-4 justify-end">
+                        <li>Tickets</li>
+                        <li>fifa+</li>
+                        <li>fifa store</li>
+                        <li>inside fifa</li>
+                    </ul>
+                </div>
+                <div class="main grid grid-cols-10 px-3 py-2 items-center max-sm:justify-center">
+                    
+                    <div class="logo col-span-1 max-sm:col-span-10 max-sm:h-10"><img class="max-sm:h-9"
+                            src="https://digitalhub.fifa.com/transform/befe3a64-328b-453c-8b58-0faeb9103684/FIFA_Logo_White_Generic?io=transform:fill,height:64&quality=75"
+                            alt="Fifa logo"></div>
+                    <div
+                        class="max-sm:hidden items inline-flex col-span-8 overflow-x-scroll  gap-10 text-slate-100 py-4 px-2">
+                        <div>TOURNAMENTS</div>
+                        <div>OVERVIEW</div>
+                        <div>MATCH CENTRE</div>
+                        <div>NEWS</div>
+                        <div>MEMBER ASSOCIATIONS</div>
+                        <div>LIVE</div>
+                        <div>ORIGINALS</div>
+                        <div>ARCHIVE</div>
+                        <div>PLAY</div>
+                        <div>PLAY ZONE</div>
+                        <div>FIVES</div>
+                        <div>WHO AM I?</div>
+                        <div>TRIVIA</div>
+                        <div>MORE GAMES</div>
+                        <div>SHOP</div>
+                        <div>FIFA STORE</div>
+                        <div>TICKETS</div>
+                        <div>FIFA+ COLLECT</div>
+                        <div>INSIDE FIFA</div>
+                        <div>OVERVIEW</div>
+                        <div>ABOUT FIFA</div>
+
+                    </div>
+                    
+                    <div class="max-sm:hidden right flex justify-evenly align-middle h-fit">
+                        <div><svg class="fill-white w-7" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                viewBox="0 0 30 30">
+                                <path
+                                    d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z">
+                                </path>
+                            </svg></div>
+                        <div>
+                            <img class="w-6 h-6"
+                                src="https://flaticons.net/icon.php?slug_category=mobile-application&slug_icon=globe"
+                                alt="">
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6"
+                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                                <path fill="#ffffff"
+                                    d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" mt-6 p-5 ">
+                    <div>
+                        <h4 class="mb-5 ">Inside FIFA</h4>
+                    </div>
+                    <div class="isideFIFA flex overflow-y-hidden overflow-x-auto max-sm:overflow-x-auto flex-nowrap w-screen gap-7  max-sm:grid-cols-1">
+
+                    </div>
+                    <div class="tournaments grid grid-cols-4 gap-7 p-5 rounded my-4max-sm:grid-cols-1 max-sm:grid-cols-1 max-sm:overflow-y-hidden max-sm:overflow-x-auto ">
+
+
+                    </div>
+                    <div>
+                        <h2 class="my-7 text-lg">THE BEST FIFA FOOTBALL AWARDS™ 2023 WINNERS</h2>
+                    </div>
+                    <div class="news grid grid-cols-4 gap-7 max-sm:grid-cols-1">
+
+                    </div>
+
+
+
+                </div>
+            </div>
+            <script>
+                const data = [
+                    { title: 'Coaches reflect on a history-making month of football', link: 'https://digitalhub.fifa.com/transform/684cb4a8-9cd7-4045-8a41-35985b7d4fb3/Germany-v-Colombia-Group-H-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'Quintana: "We made Panama fans proud. That is our legacy', link: 'https://digitalhub.fifa.com/transform/9740da9d-c724-4516-8464-d8301b8b98bf/Post-FIFA-Women-s-World-Cup-Coaches-Forum?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'FIFA publishes second CAS & Football Annual Report 2023', link: 'https://digitalhub.fifa.com/transform/c1c10a91-271d-4545-8bbe-1b4743d9327e/CAS-Football-Annual-Report-2023?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'FIFA to visit FIFA Women’s World Cup 2027 bidding member associations', link: 'https://digitalhub.fifa.com/transform/20989513-9585-4364-b497-c7334e543bdc/The-FIFA-Women-s-World-Cup-Trophy?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'FIFA Appeal Committee confirms ban on former Spanish Football Association president Luis Rubiales', link: 'https://digitalhub.fifa.com/transform/9270ff6d-ea28-46ec-9d2f-2af353b00c10/FIFA-sign-at-the-Home-of-FIFA?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'FIFA President tells Concacaf countries to “start to dream” after FIFA World Cup 26’ qualifying draw', link: 'https://digitalhub.fifa.com/transform/e4605396-8f13-4fe1-9e45-d229017914c3/Concacaf-Qualifiers-for-FIFA-World-Cup-2026-Preliminary-Draw?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'National team coaches discuss FIFA Women’s World Cup 2023', link: 'https://digitalhub.fifa.com/transform/3786826d-33f4-4d79-90a7-9fc4eeadaeaa/Post-FIFA-Women-s-World-Cup-Coaches-Forum?io=transform:fill,aspectratio:16x9&quality=75' },
+                    { title: 'FIFA extends global partnership with Visa, including FIFA World Cup 2026', link: 'https://digitalhub.fifa.com/transform/38a0f09a-e62e-45a5-b477-24f29689c1cf/Qatar-v-Ecuador-Group-A-FIFA-World-Cup-Qatar-2022?io=transform:fill,aspectratio:16x9&quality=75' }
+                ];
+                html = `
+                `
+                for (var i = 0; i < data.length; i++) {
+                    html += `<div class="card w-1/4 max-sm:w-2/3" >
+                        <div class="img ">
+                            <img class="rounded mb-3 " src="${data[i].link}" alt="">
+                        </div>
+                        <div>
+                            <p>${data[i].title}</p>
+                        </div>
+                    </div>`
+                }
+                document.querySelector('.isideFIFA').innerHTML = html
+
+                var data2 = [
+                    {
+                        title: "The Best FIFA Women's Player award caps Bonmati's dream year",
+                        link: 'https://digitalhub.fifa.com/transform/9fd5315e-362f-4112-9e88-ac0a0f1d891e/tbffa23_womens-player_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Lionel Messi wins The Best FIFA Men's Player Award",
+                        link: 'https://digitalhub.fifa.com/transform/0b003a34-5e0f-4b0a-a21a-cd2dfbf43d1c/tbffa23_mens-player_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Madruga wins Pusks Award for stunning overhead kick",
+                        link: 'https://digitalhub.fifa.com/transform/bc8e1eb8-4084-40eb-b6d2-459777cdfcd9/tbffa23_puskas_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Wiegman wins The Best FIFA Women's Coach Award",
+                        link: 'https://digitalhub.fifa.com/transform/e3d2a3a8-f403-4645-8840-d2cab001a5d7/tbffa23_womens-coach_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Guardiola wins The Best Mens Coach Award",
+                        link: 'https://digitalhub.fifa.com/transform/d23bbd98-e3a6-4c25-a4f9-3b18f8966fae/tbffa23_mens-coach_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Earps makes history with Womens Goalkeeper award double",
+                        link: 'https://digitalhub.fifa.com/transform/f7e6eb89-d879-483f-ac72-992b52c1d764/tbffa23_womens-goalkeeper_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Ederson wins The Best Men's Goalkeeper Award",
+                        link: 'https://digitalhub.fifa.com/transform/187753f3-b062-40ab-a21b-3dd2795e660a/tbffa23_mens-gk_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Iconic moment wins Colon de Santa Fe supporter The FIFA Fan Award",
+                        link: 'https://digitalhub.fifa.com/transform/0176f10b-838e-438b-bcc6-18e22b39a30f/tbffa23_fan-award_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Brazil win FIFA Fair Play award for powerful anti-racism message",
+                        link: 'https://digitalhub.fifa.com/transform/278006be-c485-49a9-8673-0a3c0d15842e/tbffa23_fair-play_web_3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    },
+                    {
+                        title: "Seven Lionesses named in Womens World 11",
+                        link: 'https://digitalhub.fifa.com/transform/dbf8ba84-3975-4986-bd39-820517c0551a/tbffa23_fifa-fifpro-womens-w11__3840x2160?io=transform:fill,aspectratio:16x9&quality=75'
+                    }
+                ];
+                html2 = `
+                `
+                for (var i = 0; i < data2.length; i++) {
+                    html2 += `<div class="card ">
+                        <div class="img ">
+                            <img class="rounded mb-3" src="${data2[i].link}" alt="">
+                        </div>
+                        <div>
+                            <p>${data2[i].title}</p>
+                        </div>
+                    </div>`
+                }
+                document.querySelector('.news').innerHTML = html2
+
+                var tournamentsData = [
+                    {
+                        title: "Olympic Football Tournaments Paris 2024",
+                        link: "https://digitalhub.fifa.com/transform/b4d0cf3d-795e-438c-9b59-753a030d2e24/Olympics-Paris-2024-Logo?io=transform:fill,aspectratio:16x9&quality=75"
+                    },
+                    {
+                        title: "Olympic Football Tournaments Paris 2024",
+                        link: "https://digitalhub.fifa.com/transform/b4d0cf3d-795e-438c-9b59-753a030d2e24/Olympics-Paris-2024-Logo?io=transform:fill,aspectratio:16x9&quality=75"
+                    },
+                    {
+                        title: "FIFA Futsal World Cup Uzbekistan 2024",
+                        link: "https://digitalhub.fifa.com/transform/42fc69c4-13e8-490d-9fc3-9c53c1a6fb87/FIFA-Futsal-World-Cup-Colombia-2016-Trophies?io=transform:fill,aspectratio:16x9&quality=75"
+                    },
+                    {
+                        title: "FIFA World Cup 26",
+                        link: "https://digitalhub.fifa.com/transform/235ddd27-575c-405c-9568-ef6ef2d05ec4/FPS_FWC26_Hero_PostLaunch?io=transform:fill,aspectratio:16x9&quality=75"
+                    }
+                ];
+                html3 = `
+                `
+                for (var i = 0; i < tournamentsData.length; i++) {
+                    html3 += `<div class="card">
+                        <div class="img ">
+                            <img class="rounded mb-3" src="${tournamentsData[i].link}" alt="">
+                        </div>
+                        <div>
+                            <p>${tournamentsData[i].title}</p>
+                        </div>
+                    </div>`
+                }
+                document.querySelector('.tournaments').innerHTML = html3
+            </script>
+    </body>
+
+</html>
